@@ -1,0 +1,178 @@
+/*css for payfees*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: Trebuchet MS;
+}
+
+body{
+	background:#fff;
+	background-size: cover;
+}
+
+/*Navigation bar styles*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001D3D;
+  font-family:Trebuchet MS;
+}
+
+li {
+  float: left;
+ /*border-right:1px solid #bbb;*/
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFC300;
+}
+
+.active {
+  background-color: #FFC300;
+}
+
+/*avatar*/
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+/*buttons*/
+button, input[type=submit]{
+  width:100px;
+  height: 50px;
+  float: left;
+  padding-left: 20px;
+  background-color: #001D3D;
+  font-family:Trebuchet MS;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size:15px;
+  cursor: pointer;
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+}
+
+
+button:hover {
+  background-color: #FFC300;
+}
+
+
+input[type=submit]:hover {
+  background-color: #FFC300;
+}
+
+
+/*main content*/
+.main h2{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.main h3{
+	margin-left: 45px;
+	margin-top: 70px;
+}
+
+.main input[type=file]{
+	width: 400px;
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.main input[type=submit]{
+	width:150px;
+	margin-left: 60px;
+	margin-top:50px;
+}
+
+.main p{
+	text-align:center;
+	margin-top: 50px;
+}
+
+/*dropdowns*/
+select{
+	height: 5%;
+	width: 250px;
+	margin-top: -100px;
+}
+
+.s1{
+	margin-left: 375px;
+}
+
+.s2{
+	margin-left: 120px;
+}
+
+
+
+/*drag area*/
+.drag-area{
+  border: 2px dashed #fff;
+  background-color: #001D3D;
+  height: 300px;
+  width: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 430px;
+  margin-top: 25px;
+}
+.drag-area.active{
+  border: 2px solid #FFC300;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #FFC300;
+  margin-top:-10px;
+}
+.drag-area header{
+  font-size: 20px;
+  font-weight: 0;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+
+.drag-area input[type=file]{
+	color:#fff;
+	margin-left: 180px;
+	margin-top: -5px;
+}
+
+/*submit button*/
+.sub{
+	margin-left: 550px;
+	margin-bottom: 30px;
+}
