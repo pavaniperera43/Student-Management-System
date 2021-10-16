@@ -1,0 +1,123 @@
+/*user profile css*/
+
+/*body*/
+body {
+  min-height: 100vh;
+	background-size: cover;
+  margin: 0px;
+  font-size: 15px;
+}
+
+
+/*Navigation bar styles*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001D3D;
+  font-family:Trebuchet MS;
+}
+
+li {
+  float: left;
+ /*border-right:1px solid #bbb;*/
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFC300;
+}
+
+.active {
+  background-color: #FFC300;
+}
+
+/*right side form styles*/
+
+
+.right{
+	margin-left:600px;
+	margin-top:-550px;
+}
+
+.right input[type=text], input[type=password] {
+  width:95%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  display: inline-block;
+  text-align: left;
+  border-radius: 0px;
+  box-sizing: border-box;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  outline: none;
+}
+
+
+/*left side card styles*/
+.left {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:300px;
+  height: 500px;
+  background-color: #FFC300;
+  border-radius:15px;
+  text-align:center;
+  margin-left:140px;
+  margin-top:60px;
+}
+
+.container {
+  padding-left: 0px;
+  padding-top: 60px;
+}
+
+.left a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.avatar{
+	height: 200px;
+	width: 200px;
+	margin-top: -40px;
+}
+
+.container input[type=submit]{
+	width:150px;
+	height: 40px;
+	float: left;
+  
+  background-color: #001D3D;
+  font-family:Trebuchet MS;
+  color: white;
+  
+  border: none;
+  border-radius: 20px;
+  font-size:15px;
+  cursor: pointer;
+  text-align:center;
+  display: block;
+  margin: 10px;
+  margin-left: 75px;
+}
+
+.delete input[type=submit]{
+	background-color:red;
+}
