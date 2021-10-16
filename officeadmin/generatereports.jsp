@@ -2,6 +2,7 @@
 <head>
 <title>Generate Reports</title>
 <link rel="stylesheet" href="./generatereports.css">
+<script src="https://kit.fontawesome.com/e1eaef53f0.js" crossorigin="anonymous"></script>
 </head>
     <body>
 
@@ -10,12 +11,12 @@
         <div>
 		<ul>
 			
-			<li style="float:right"><a href="./FAQ.php">Contact Us</a></li>   			
-			<li style="float:right"><a href="./index.php#B3">Help</a></li>
-			<li style="float:right"><a href="./index.php">About Us</a></li>
-			<li style="float:right"><a href="./index.php">Sign Up</a></li>
-			<li style="float:right"><a href="./index.php">Sign In</a></li>
-		</ul>
+	            <li style="float:right"><a href=""><i class="fas fa-sign-out-alt"></i> Sign Out</a></li>   			
+	            <li style="float:right"><a href=""><i class="fas fa-address-book"></i> Contact Us</a></li>
+	            <li style="float:right"><a href=""><i class="fas fa-hands-helping"></i> Help</a></li>
+	            <li style="float:right"><a href=""><i class="fas fa-users"></i> About Us</a></li>
+	            <li style="float:right"><a href=""><i class="fas fa-home"></i> Home</a></li>
+                </ul>
 	</div> 
         
         
