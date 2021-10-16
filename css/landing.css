@@ -40,6 +40,9 @@ li a:hover:not(.active) {
   background-color: #FFC300;
 }
 
+.active{
+  background-color: #FFC300;
+}
 
 /*card*/
 .hdiv {
