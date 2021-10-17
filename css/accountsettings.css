@@ -50,6 +50,8 @@ li a:hover:not(.active) {
 .right{
 	margin-left:600px;
 	margin-top:-550px;
+	font-family:Trebuchet MS;
+	font-size:18px;
 }
 
 .right input[type=text], input[type=password] {
