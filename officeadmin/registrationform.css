@@ -13,7 +13,7 @@ body {
   
   background-color: #ffffff;
   font-family:Trebuchet MS;
-  font-size:15px;
+  font-size:18px;
   border-radius:15px;
   background: rgba(255, 255, 255, 0.8);
   margin: 0 auto;
@@ -23,14 +23,21 @@ body {
   padding-right:25px;
   
   /*centering div*/
-  width: 400px;
+  width: 500px;
   height: 180px;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 48%;
   margin: -270px 0 0 -250px; 
   
 }
+
+
+.hdiv h1{
+	padding-bottom: 25px;
+	margin-top:-50px;
+}
+
 
 /* email and password texboxes*/
 input[type=text], [type=password]{
@@ -69,7 +76,7 @@ input[type=submit]{
 
 
 input[type=submit]:hover {
-  background-color: #adadad;
+  background-color: #FFC300;
 }
 
 /*additional formattings*/
@@ -106,7 +113,6 @@ ul {
 
 li {
   float: left;
-  border-right:1px solid #bbb;
 }
 
 li:last-child {
