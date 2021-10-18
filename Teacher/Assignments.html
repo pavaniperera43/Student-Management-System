@@ -1,20 +1,17 @@
-<%-- 
-    Document   : Assignments
-    Created on : Aug 30, 2021, 1:03:29 PM
-    Author     : Gihan
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
     <title> Assignments </title>
-    <link rel="stylesheet" href="./css/my.css">
+    <link rel="stylesheet" href="./css/teacher.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
+    
   <div class="sidebar">
     <div class="logo-details">
 	<i class='bx bx-book-reader' ></i> 
@@ -24,25 +21,25 @@
 	
         <li>
         <li>
-          <a href="http://localhost:8080/WebApplication2/teacherhome.jsp" >
+          <a href="http://localhost:8080/WebApplication2/teacherhome.html" >
             <i class='bx bx-grid-alt' ></i>
             <span class="links_name">Dashboard</span>
           </a>
         </li>
 	<li>
-          <a href="http://localhost:8080/WebApplication2/teacherprofile.jsp">
+          <a href="http://localhost:8080/WebApplication2/teacherprofile.html">
              <i class='bx bx-user' ></i>
             <span class="links_name">Profile</span>
           </a>
         </li>
         <li>
-          <a href="http://localhost:8080/WebApplication2/teachernotices.jsp">
+          <a href="http://localhost:8080/WebApplication2/teachernotices.html">
             <i class='bx bx-notepad' ></i>
             <span class="links_name">Manage Notices</span>
           </a>
         </li>
         <li>
-          <a href="http://localhost:8080/WebApplication2/attendance.jsp">
+          <a href="http://localhost:8080/WebApplication2/attendance.html">
             <i class='bx bx-book-content' ></i>
             <span class="links_name">Attendance</span>
           </a>
@@ -63,6 +60,7 @@
         </li>
       </ul>
   </div>
+>
   <section class="home-section">
     <nav>
       <div class="sidebar-button">
@@ -79,22 +77,51 @@
 
     <div class="home-content">
       
-      <!--<div class="display-boxes">
-        <div class="left box">
-          <div class="title">Recent Notices</div>
+   <div class="sidenav">
+		<h2>Classes</h2>
+		<button class="dropdown-btn">Class 1 
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-container">
+			<a href="http://localhost:8080/WebApplication2/create%20Assignments.html"><i class="fas fa-chevron-right"></i> Create Assignments</a>
+			<a href="http://localhost:8080/WebApplication2/view%20assignment.html"><i class="fas fa-chevron-right"></i> View Assignments Marks</a>
+			
+		</div>
+	</div>
          
-          
-        </div>
-        <div class="right box">
-          <div class="title">Time Table</div>
-         
-           
-        </div>
       </div>
-    </div>-->
+      <script>
+	/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - 
+	This allows the user to have multiple dropdowns without any conflict */
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+	var i;
+
+	for (i = 0; i < dropdown.length; i++) {
+		dropdown[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var dropdownContent = this.nextElementSibling;
+			if (dropdownContent.style.display === "block") {
+				dropdownContent.style.display = "none";
+			} else {
+				dropdownContent.style.display = "block";
+			}
+		});
+	}
+	</script>
+    
   </section>
 
-  
+ <div class="footer">
+ 		 <p style="color: white;">Copyright © 2021 - Group 12. All rights reserved.</p>
+ 		 <p style="color: white;">Emergency</p>
+	</div>
+ 
+
+ <div class="footer">
+ 		 <p style="color: white;">Copyright © 2021 - Group 12. All rights reserved.</p>
+ 		 <p style="color: white;">Emergency</p>
+	</div>
+ 
 
 </body>
 </html>
