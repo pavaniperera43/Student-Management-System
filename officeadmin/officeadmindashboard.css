@@ -1,0 +1,111 @@
+/*styles for admin dashboard*/
+
+/*body*/
+body {
+  min-height: 100vh;
+	background-size: cover;
+  margin: 0px;
+  font-size: 15px;
+}
+
+
+/*Navigation bar styles*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001D3D;
+  font-family:Trebuchet MS;
+}
+
+li {
+  float: left;
+ /*border-right:1px solid #bbb;*/
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFC300;
+}
+
+.active {
+  background-color: #FFC300;
+}
+
+h1{
+	font-family:Trebuchet MS;
+}
+
+/*cards*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 200px;
+  height: 100px;
+  background-color: #001D3D;
+  border-radius:15px;
+  text-align:center;
+}
+
+
+.card:hover{
+	background-color: #FFC300;
+}
+
+.container {
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+.card a{
+	text-decoration: none;
+	color:#fff;
+	font-family:Trebuchet MS;
+	font-size:18px;
+}
+
+.al1{
+	margin-left:150px;
+	margin-bottom:100px;
+}
+
+
+.al2{
+	margin-left:550px;
+	margin-bottom:100px;
+	margin-top:-200px;
+}
+
+
+.al3{
+	margin-left:950px;
+	margin-bottom:100px;
+	margin-top:-200px;
+}
+
+
+.al4{
+	margin-left:750px;
+	margin-bottom:100px;
+	margin-top:0px;
+}
+
+.al5{
+	margin-left:300px;
+	margin-bottom:100px;
+	margin-top:-200px;
+}
+
+
