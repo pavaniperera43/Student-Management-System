@@ -110,7 +110,6 @@ ul {
 
 li {
   float: left;
-  /*border-right:1px solid #bbb;*/
 }
 
 li:last-child {
@@ -130,9 +129,6 @@ li a:hover:not(.active) {
 }
 
 /*radio button styles*/
-.container input[type=radio]:after{
-	background-color:#FFC300;
-}
  
 .rtop{
 	font-size:18px;
