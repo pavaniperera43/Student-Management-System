@@ -18,7 +18,7 @@ body {
   background: rgba(255, 255, 255, 0.8);
   margin: 0 auto;
   padding-bottom: 25px;
-  padding-top: 15px;
+  padding-top: 5px;
   padding-left:25px;
   padding-right:25px;
   
@@ -30,6 +30,16 @@ body {
   left: 50%;
   margin: -270px 0 0 -250px; 
 
+}
+
+.hdiv h1{
+	margin-top:35px;
+}
+
+.hdiv p{
+	font-size:18px;
+	font-family:Trebuchet MS;
+	margin-bottom:5px;
 }
 
 /* email and password textboxes*/
@@ -78,20 +88,14 @@ p, h1, h2{
 }
 
 #textdecors{
-	font-weight: bold;
+	font-size:18px;
 	text-align:left;
-}
-
-#removepadding{
-	margin-top: 40px;
 }
 
 
 #size1{
-	font-size: 17px;
+	font-size: 18px;
 }
-
-
 
 
 /*Navigation bar styles*/
@@ -106,7 +110,6 @@ ul {
 
 li {
   float: left;
-  /*border-right:1px solid #bbb;*/
 }
 
 li:last-child {
@@ -125,7 +128,12 @@ li a:hover:not(.active) {
   background-color: #FFC300;
 }
 
-
+/*radio button styles*/
+ 
+.rtop{
+	font-size:18px;
+	margin-bottom:-20px;
+}
 
 /* Style the footer */
 .footer {
