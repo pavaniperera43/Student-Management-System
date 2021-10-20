@@ -21,20 +21,13 @@
 		<h1 align="center">Sign In</h1>
 		<p>Welcome Back!<br /><p>
 		<form method="post">
-			<!----------checkboxes------------>
+			<!----------dropdown------------>
 			<section class="rtop">Signing in as:</section> <br /><br />
-			<label class="container">
-			<input type="radio" name="radio"> Staff
-			<span class="checkmark"></span>
-			</label>
-			<label class="container">
-			<input type="radio" name="radio"> Student
-			<span class="checkmark"></span>
-			</label>
-			<label class="container">
-			<input type="radio" name="radio"> Teacher
-			<span class="checkmark"></span>
-			</label>
+			<select name="userrole" id="userrole">
+				<option value="staff">Staff</option>
+				<option value="teacher">Teacher</option>
+				<option value="student">Student</option>
+			</select>
 			<br />
 			<p id=textdecors>Email:</p>
 			<input type="text" id="email" name="email" placeholder="Enter your email address">

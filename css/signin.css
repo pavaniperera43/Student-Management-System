@@ -128,11 +128,13 @@ li a:hover:not(.active) {
   background-color: #FFC300;
 }
 
-/*radio button styles*/
+/*drop down styles*/
  
-.rtop{
-	font-size:18px;
-	margin-bottom:-20px;
+select{
+	margin-top:-20px;
+	height: 20px;
+	width: 50%;
+	font-family:Trebuchet MS;
 }
 
 /* Style the footer */
