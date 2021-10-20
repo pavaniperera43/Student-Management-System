@@ -1,8 +1,7 @@
-/*External CSS for sign in page*/
+/*External CSS for manage general notices page*/
 
 body {
   min-height: 100vh;
-	background-image: url("../bg2.jpg");
 	background-size: cover;
   margin: 0px;
   font-size: 15px;
@@ -51,7 +50,7 @@ input[type=text], [type=password],[type=reset]{
 } 
 
 /*submit button*/
-input[type=submit],[type=reset]{
+input[type=submit],input[type=reset]{
   width: 80%;
   height: 50px;
   background-color: #001D3D;
@@ -68,8 +67,8 @@ input[type=submit],[type=reset]{
 }
 
 
-input[type=submit]:hover {
-  background-color: #adadad;
+input[type=submit]:hover , input[type=reset]:hover{
+  background-color: #FFC300;
 }
 
 /*additional formattings*/
@@ -106,7 +105,6 @@ ul {
 
 li {
   float: left;
-  border-right:1px solid #bbb;
 }
 
 li:last-child {
@@ -125,6 +123,13 @@ li a:hover:not(.active) {
   background-color: #FFC300;
 }
 
+/*avatar*/
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  float: right;
+}
 
 
 /* Style the footer */

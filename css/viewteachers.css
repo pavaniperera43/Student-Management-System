@@ -1,0 +1,107 @@
+/*styles for teacher list view and student list view*/
+
+/*body*/
+body {
+    min-height: 100vh;
+      background-size: cover;
+    margin: 0px;
+    font-size: 15px;
+  }
+  
+  
+  /*Navigation bar styles*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001D3D;
+    font-family:Trebuchet MS;
+  }
+  
+  li {
+    float: left;
+   /*border-right:1px solid #bbb;*/
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #FFC300;
+  }
+  
+  .active {
+    background-color: #FFC300;
+  }
+  
+  
+  /*table styles*/
+  .tab h1{
+      text-align:center;
+      padding-bottom: 20px;
+      font-family:Trebuchet MS;
+      margin-top:50px;
+  }
+  
+  .tab table{
+      border-collapse: collapse;
+      margin-left: 130px;
+      margin-right:20px;
+      width: 80%;
+      font-family:Trebuchet MS;
+  }
+  
+  .tab th{
+      background-color:#FFC300;
+      height:45px;
+  }
+  
+  
+  .tab td{
+      text-align: left;
+      padding: 15px;
+      column-width: 25px;
+  }
+  
+  
+  /*buttons*/
+  .tab button, input[type=submit]{
+    width:100px;
+    height: 50px;
+    padding-left: 50px;
+    background-color: #001D3D;
+    font-family:Trebuchet MS;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size:15px;
+    cursor: pointer;
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #FFC300;
+  }
+  
+  
+  .delete{
+      margin-left:70px;
+      margin-right:-50px;
+  }
+  
+  .delete button:hover{
+      background-color:red;
+  }

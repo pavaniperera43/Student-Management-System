@@ -13,7 +13,7 @@ body {
   
   background-color: #ffffff;
   font-family:Trebuchet MS;
-  font-size:15px;
+  font-size:18px;
   border-radius:15px;
   background: rgba(255, 255, 255, 0.8);
   margin: 0 auto;
@@ -69,7 +69,7 @@ input[type=submit]{
 
 
 input[type=submit]:hover {
-  background-color: #adadad;
+  background-color:#FFC300;
 }
 
 /*additional formattings*/
@@ -106,7 +106,6 @@ ul {
 
 li {
   float: left;
-  border-right:1px solid #bbb;
 }
 
 li:last-child {
@@ -125,7 +124,18 @@ li a:hover:not(.active) {
   background-color: #FFC300;
 }
 
+select{
+	height: 15%;
+	width: 50%;
+}
 
+/*avatar*/
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  float: right;
+}
 
 /* Style the footer */
 .footer {
