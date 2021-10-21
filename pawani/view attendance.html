@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Veiw Attendance | Teacher</title>
+   <link rel="stylesheet" href="./css/teachercreatenotice.css">
+   <script src="https://kit.fontawesome.com/e1eaef53f0.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+   </head>
+<body>
+  
+ 
+  
+  <div class="sidebar">
+      <ul class="nav-links">
+        <li>
+          <a href="http://localhost:8080/WebApplication2/teachernotices.html"  >
+            <i class='bx bx-notepad' ></i>
+            <span class="links_name">Manage Notices</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://localhost:8080/WebApplication2/attendance.html"class="active">
+            <i class='bx bx-book-content' ></i>
+            <span class="links_name">Attendance</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://localhost:8080/WebApplication2/Assignments.html">
+            <i class='bx bx-book-open' ></i>
+            <span class="links_name">Assignments</span>
+          </a>
+        </li>
+        <li>
+	  
+      </ul>
+  </div>
+  
+  
+  
+  <section class="home-section">
+  
+   <!----main nav---->
+  <div>
+		<ul>
+					<li style="float:right"><a href="../index.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a></li>   			
+					<li style="float:right"><a href="./contactus.html"><i class="fas fa-address-book"></i> Contact Us</a></li>
+					<li style="float:right"><a href="./help.html"><i class="fas fa-hands-helping"></i> Help</a></li>
+					<li style="float:right"><a href="./aboutus.html"><i class="fas fa-users"></i> About Us</a></li>
+					<li style="float:right"><a href="../home.html"><i class="fas fa-home"></i> Home</a></li>
+				</ul>
+</div>
+  
+    <a href="accountsettings.html"><img src="../img/avatar.png" alt="Avatar" class="avatar"></a>
+ 
+   <div class="home-content">
+      
+  <div class="sidenav">
+		<h2>View Attendance</h2>
+		<button class="dropdown-btn">Class 
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-container">
+			
+			<a href="http://localhost:8080/WebApplication2/view%20attendance.html#" class="active"><i class="fas fa-chevron-right"></i> 1</a>
+                        <a href="http://localhost:8080/WebApplication2/view%20attendance.html#" class="active"><i class="fas fa-chevron-right"></i> 2</a>
+			
+		</div>
+		<div class="tab">
+<h2>Attendance</h2>
+	<table  border="1">
+		<thead>
+			<tr>
+				<th>Student id</th>
+				<th>Date</th>
+				<th>Attendance</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td align="center">test1</td>
+				<td align="center">test1</td>
+				<td align="center">test1</td>
+				
+			</tr>
+		</tbody>
+	</table>
+	<br /><br /><br /><br />
+        </div>
+                
+	</div>
+         
+      </div>
+      <script>
+	/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - 
+	This allows the user to have multiple dropdowns without any conflict */
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+	var i;
+
+	for (i = 0; i < dropdown.length; i++) {
+		dropdown[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var dropdownContent = this.nextElementSibling;
+			if (dropdownContent.style.display === "block") {
+				dropdownContent.style.display = "none";
+			} else {
+				dropdownContent.style.display = "block";
+			}
+		});
+	}
+	</script>
+   
+  </section>
+
+
+ 
+
+</body>
+</html>
