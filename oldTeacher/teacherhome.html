@@ -1,20 +1,38 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title>Home | Teacher</title>
+    <title> Teacher Home </title>
    <link rel="stylesheet" href="./css/teacher.css">
-   <script src="https://kit.fontawesome.com/e1eaef53f0.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
    </head>
 <body>
   
- 
-  
   <div class="sidebar">
+    <div class="logo-details">
+	<i class='bx bx-book-reader' ></i> 
+      <span class="logo_name">PRAGATHI</span>
+    </div>
       <ul class="nav-links">
+	
+        <li>
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+	<li>
+          <a href="http://localhost:8080/WebApplication2/teacherprofile.html">
+             <i class='bx bx-user' ></i>
+            <span class="links_name">Profile</span>
+          </a>
+        </li>
         <li>
           <a href="http://localhost:8080/WebApplication2/teachernotices.html">
             <i class='bx bx-notepad' ></i>
@@ -35,25 +53,28 @@
         </li>
         <li>
 	  
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
       </ul>
   </div>
   
-  
-  
   <section class="home-section">
-  
-   <!----main nav---->
-  <div>
-		<ul>
-					<li style="float:right"><a href="../index.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a></li>   			
-					<li style="float:right"><a href="./contactus.html"><i class="fas fa-address-book"></i> Contact Us</a></li>
-					<li style="float:right"><a href="./help.html"><i class="fas fa-hands-helping"></i> Help</a></li>
-					<li style="float:right"><a href="./aboutus.html"><i class="fas fa-users"></i> About Us</a></li>
-					<li style="float:right"><a href="../home.html" class="active" ><i class="fas fa-home"></i> Home</a></li>
-				</ul>
-</div>
-  
-    <a href="accountsettings.html"><img src="../img/avatar.png" alt="Avatar" class="avatar"></a>
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      
+      <div class="profile-details">
+        <!--<img src="images/profile.jpg" alt="">-->
+        <span class="admin_name">Name</span>
+        <!--<i class='bx bx-chevron-down' ></i>-->
+      </div>
+    </nav>
  
     <div class="home-content">
       
@@ -72,7 +93,10 @@
     </div>
   </section>
 
-
+ <div class="footer">
+ 		 <p style="color: white;">Copyright © 2021 - Group 12. All rights reserved.</p>
+ 		 <p style="color: white;">Emergency</p>
+	</div>
  
 
 </body>
